@@ -1,0 +1,13 @@
+{
+  "all_turns": 144,
+  "web_turns": 96,
+  "num_platforms": 4,
+  "platform_counts": {
+    "chatgpt": 36,
+    "grok": 36,
+    "claude": 36,
+    "deepseek": 36
+  },
+  "time_min": "2025-01-01T09:00:18",
+  "time_max": "2025-06-10T16:25:18"
+}
