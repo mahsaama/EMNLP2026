@@ -31,8 +31,6 @@ flowchart LR
 
 ## Repository Layout
 
-- `src/data_extraction.py`: ChatGPT extraction and `data_summary`/`web_data_summary` builders.
-- `src/data_extraction_other_cai.py`: extraction for Claude, Grok, and DeepSeek.
 - `src/web_tool_invocation.py`: analyses focused on Web-call decisions and trends.
 - `src/query_reformulations.py`: query evolution and reformulation analyses.
 - `src/source_selection.py`: retrieved/cited source analyses.
@@ -50,8 +48,6 @@ pip install -r requirements.txt
 ## Dummy Dataset For Development
 
 To support testing and later pipeline stages without full raw exports, a dummy dataset is included.
-
-The schema matches `src/data_extraction.py` (`data_summary` + `web_data_summary`) and adds a `platform` column so you can run cross-platform experiments.
 
 You can load the dummy dataset with the helper in `src/data_extraction.py`:
 
